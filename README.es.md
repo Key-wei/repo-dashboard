@@ -22,11 +22,17 @@ Source │ Branch:dev │ ~3 +1 -0 │ ↑2 ↓0
 
 ## Instalación
 
-```bash
-/plugin install github:Key-wei/repo-dashboard
+**Paso 1:** Agregar el marketplace
+```
+/plugin marketplace add Key-wei/repo-dashboard
 ```
 
-Luego ejecuta el comando de configuración:
+**Paso 2:** Instalar el plugin
+```
+/plugin install repo-dashboard
+```
+
+**Paso 3:** Configurar la línea de estado
 ```
 /repo-dashboard:setup
 ```

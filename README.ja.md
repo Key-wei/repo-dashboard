@@ -22,11 +22,17 @@ Source │ Branch:dev │ ~3 +1 -0 │ ↑2 ↓0
 
 ## インストール
 
-```bash
-/plugin install github:Key-wei/repo-dashboard
+**ステップ 1：** マーケットプレイスを追加
+```
+/plugin marketplace add Key-wei/repo-dashboard
 ```
 
-セットアップコマンドを実行：
+**ステップ 2：** プラグインをインストール
+```
+/plugin install repo-dashboard
+```
+
+**ステップ 3：** ステータスラインを設定
 ```
 /repo-dashboard:setup
 ```

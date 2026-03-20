@@ -22,11 +22,17 @@ Source │ Branch:dev │ ~3 +1 -0 │ ↑2 ↓0
 
 ## 설치
 
-```bash
-/plugin install github:Key-wei/repo-dashboard
+**1단계:** 마켓플레이스 추가
+```
+/plugin marketplace add Key-wei/repo-dashboard
 ```
 
-설정 명령어 실행:
+**2단계:** 플러그인 설치
+```
+/plugin install repo-dashboard
+```
+
+**3단계:** 상태 표시줄 설정
 ```
 /repo-dashboard:setup
 ```
